@@ -1,8 +1,8 @@
-datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "No truth at all"] = "1"
-datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Very little truth"] = "2"
-datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Some truth"] = "3"
-datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "A great deal of truth"] = "4"
-datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Don't know"] = "NA"
-
-datasetConspiracyMarkPickupAustralia$Q893_1recode <- as.numeric(datasetConspiracyMarkPickupAustralia$Q893_1recode)
-mean(datasetConspiracyMarkPickupAustralia$Q893_1recode, na.rm = TRUE)
+> datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "No truth at all"] = "1"
+> datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Very little truth"] = "2"
+> datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Some truth"] = "3"
+> datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "A great deal of truth"] = "4"
+> datasetConspiracyMarkPickupAustralia$Q893_1recode[datasetConspiracyMarkPickupAustralia$Q893_1 == "Don't know"] = "NA"
+> datasetConspiracyMarkPickupAustralia$Q893_1recode <- as.numeric(datasetConspiracyMarkPickupAustralia$Q893_1recode)
+> mean(datasetConspiracyMarkPickupAustralia$Q893_1recode, na.rm = TRUE)
+[1] 1.647059
